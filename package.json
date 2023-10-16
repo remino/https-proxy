@@ -1,0 +1,25 @@
+{
+	"name": "https-proxy",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"main": "https-proxy.js",
+	"type": "module",
+	"scripts": {
+		"lint": "npx eslint",
+		"lint:fix": "npx eslint --fix",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^8.23.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.26.0"
+	},
+	"dependencies": {
+		"http-proxy": "^1.18.1",
+		"pem": "^1.14.8"
+	}
+}
